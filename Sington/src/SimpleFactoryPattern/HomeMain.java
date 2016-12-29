@@ -1,5 +1,7 @@
 package SimpleFactoryPattern;
 
+import open.XmlUtil;
+
 /**
  * 简单工厂模式，提供一个简单工厂，根据传入的参数，返回一个具体的产品
  * 一个抽象产品类AbstractProduct
@@ -16,7 +18,7 @@ package SimpleFactoryPattern;
 public class HomeMain {
     public static void main(String[] args) {
         AbstractProduct product = null;
-        product = Factory.getProduct(XmlUtil.getProductType());
+        product = Factory.getProduct(XmlUtil.getINSTANCE().getType("charType"));
         product.name();
         product.price();
         product.year();
