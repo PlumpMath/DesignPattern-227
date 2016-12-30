@@ -17,7 +17,7 @@ public class HomeMain {
         Logger logger = null;
         Factory factory = null;
         //通过读取配置文件获取工厂实例
-        factory = (Factory) XmlUtil.getINSTANCE().getBean("className");
+        factory = (Factory) XmlUtil.getINSTANCE().getBean("FactoryMethodPattern.","className");
 //        factory = new DatabaseLoggerFactory();
         logger = factory.createLogger();
         logger.writeLog();

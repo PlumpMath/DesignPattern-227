@@ -2,4 +2,5 @@
 <config>
     <charType>B</charType>
     <className>DatabaseLoggerFactory</className>
+    <factoryType>Factory2</factoryType>
 </config>

@@ -55,6 +55,7 @@ public class XmlUtil {
 
     /**
      * 获取到xml文件中type下的值
+     *
      * @param type
      * @return
      */
@@ -73,16 +74,17 @@ public class XmlUtil {
 
     /**
      * 根据xml中的标签名称获取类的实例
+     *
      * @param objName
      * @return
      */
-    public Object getBean(String objName) {
+    public Object getBean(String path,String objName) {
         String cName = getType(objName);
         Class c = null;
         Object obj = null;
         try {
             //注意此处是需要带包名（路径要准确）
-            c = Class.forName("FactoryMethodPattern." + cName);
+            c = Class.forName(path + cName);
             obj = c.newInstance();
             return obj;
         } catch (ClassNotFoundException e) {
@@ -96,3 +98,6 @@ public class XmlUtil {
     }
 
 }
+
+
+
