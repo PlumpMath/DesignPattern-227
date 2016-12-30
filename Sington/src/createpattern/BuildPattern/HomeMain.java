@@ -14,7 +14,6 @@ public class HomeMain {
     public static void main(String[] args) {
         ActorContrller actorContrller = new ActorContrller();
         Actor actor = actorContrller.construct(new AngelBuilder());
-
         System.out.println(actor.toString());
     }
 }

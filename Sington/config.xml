@@ -3,4 +3,5 @@
     <charType>B</charType>
     <className>DatabaseLoggerFactory</className>
     <factoryType>Factory2</factoryType>
+    <adapterType>OperationAdapter</adapterType>
 </config>
