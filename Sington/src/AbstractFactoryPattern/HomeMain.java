@@ -3,6 +3,8 @@ package AbstractFactoryPattern;
 import AbstractFactoryPattern.abstractBean.AbstractProductA;
 import AbstractFactoryPattern.abstractBean.AbstractProductB;
 import AbstractFactoryPattern.abstractFactory.AbstractFactory;
+import AbstractFactoryPattern.factory.Factory1;
+import FactoryMethodPattern.Factory;
 import open.XmlUtil;
 
 /**
@@ -10,6 +12,9 @@ import open.XmlUtil;
  * 两个抽象产品AbstractProductA,AbstractProductB
  * 一个抽象工厂类AbstractFactory,提供创建两个抽象产品的抽象方法(创建一个产品族的方法)
  * 应用配置文件设置客户端应用哪种产品等级结构的工厂（应用的具体工厂）,实现动态设置
+ *
+ * 缺点：“开闭原则”的倾斜性：在抽象工厂模式中，增加新的产品族很方便，但是增加新的产品等级结构很麻烦(如增加AbstractProductC)
+ * 优点：不用像工厂方法模式那样每个产品创建一个工厂类，减少类的数量
  *
  * Created by Heyha on 2016/12/30.
  */
@@ -25,5 +30,8 @@ public class HomeMain {
 
         productA.display();
         productB.show();
+
+
+
     }
 }
