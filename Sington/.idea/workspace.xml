@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26925b57-cef1-43de-afb9-181e33c22ca0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sington/AbstractFactoryPattern/afp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sington/PrototypePattern/pp.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/abstractBean/AbstractProductA.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/abstractBean/AbstractProductA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/abstractBean/AbstractProductB.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/abstractBean/AbstractProductB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/abstractFactory/AbstractFactory.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/abstractFactory/AbstractFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/afp.png" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/afp.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/bean/ProductA1.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/bean/ProductA1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/bean/ProductA2.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/bean/ProductA2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/bean/ProductB1.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/bean/ProductB1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/bean/ProductB2.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/bean/ProductB2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/factory/Factory1.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/factory/Factory1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/factory/Factory2.java" afterPath="$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/factory/Factory2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/CRPModel/CustomDao.java" afterPath="$PROJECT_DIR$/src/createpattern/CRPModel/CustomDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/CRPModel/DBUtil.java" afterPath="$PROJECT_DIR$/src/createpattern/CRPModel/DBUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/CRPModel/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/CRPModel/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/CRPModel/OracleUtil.java" afterPath="$PROJECT_DIR$/src/createpattern/CRPModel/OracleUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DIPModel/DataConvertor.java" afterPath="$PROJECT_DIR$/src/createpattern/DIPModel/DataConvertor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DIPModel/ExeclDataConvertor.java" afterPath="$PROJECT_DIR$/src/createpattern/DIPModel/ExeclDataConvertor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DIPModel/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/DIPModel/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DIPModel/TXTDataConvertor.java" afterPath="$PROJECT_DIR$/src/createpattern/DIPModel/TXTDataConvertor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FactoryMethodPattern/DatabaseLogger.java" afterPath="$PROJECT_DIR$/src/createpattern/FactoryMethodPattern/DatabaseLogger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FactoryMethodPattern/DatabaseLoggerFactory.java" afterPath="$PROJECT_DIR$/src/createpattern/FactoryMethodPattern/DatabaseLoggerFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FactoryMethodPattern/Factory.java" afterPath="$PROJECT_DIR$/src/createpattern/FactoryMethodPattern/Factory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FactoryMethodPattern/FileLogger.java" afterPath="$PROJECT_DIR$/src/createpattern/FactoryMethodPattern/FileLogger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FactoryMethodPattern/FileLoggerFactory.java" afterPath="$PROJECT_DIR$/src/createpattern/FactoryMethodPattern/FileLoggerFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FactoryMethodPattern/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/FactoryMethodPattern/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FactoryMethodPattern/Logger.java" afterPath="$PROJECT_DIR$/src/createpattern/FactoryMethodPattern/Logger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ISPModel/ChartHandler.java" afterPath="$PROJECT_DIR$/src/createpattern/ISPModel/ChartHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ISPModel/DataHandler.java" afterPath="$PROJECT_DIR$/src/createpattern/ISPModel/DataHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ISPModel/DataReport.java" afterPath="$PROJECT_DIR$/src/createpattern/ISPModel/DataReport.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ISPModel/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/ISPModel/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ISPModel/ReportHandler.java" afterPath="$PROJECT_DIR$/src/createpattern/ISPModel/ReportHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ISPModel/XMLTranslator.java" afterPath="$PROJECT_DIR$/src/createpattern/ISPModel/XMLTranslator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LSPModel/CommonCustom.java" afterPath="$PROJECT_DIR$/src/createpattern/LSPModel/CommonCustom.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LSPModel/Custom.java" afterPath="$PROJECT_DIR$/src/createpattern/LSPModel/Custom.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LSPModel/EmailSend.java" afterPath="$PROJECT_DIR$/src/createpattern/LSPModel/EmailSend.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LSPModel/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/LSPModel/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LSPModel/VipCustom.java" afterPath="$PROJECT_DIR$/src/createpattern/LSPModel/VipCustom.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrototypePattern/Attachment.java" afterPath="$PROJECT_DIR$/src/createpattern/PrototypePattern/Attachment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrototypePattern/Attachment2.java" afterPath="$PROJECT_DIR$/src/createpattern/PrototypePattern/Attachment2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrototypePattern/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/PrototypePattern/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrototypePattern/Protortype.java" afterPath="$PROJECT_DIR$/src/createpattern/PrototypePattern/Protortype.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrototypePattern/Protortype2.java" afterPath="$PROJECT_DIR$/src/createpattern/PrototypePattern/Protortype2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrototypePattern/pp.png" afterPath="$PROJECT_DIR$/src/createpattern/PrototypePattern/pp.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrototypePattern/sp.png" afterPath="$PROJECT_DIR$/src/createpattern/PrototypePattern/sp.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SimpleFactoryPattern/AbstractProduct.java" afterPath="$PROJECT_DIR$/src/createpattern/SimpleFactoryPattern/AbstractProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SimpleFactoryPattern/Factory.java" afterPath="$PROJECT_DIR$/src/createpattern/SimpleFactoryPattern/Factory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SimpleFactoryPattern/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/SimpleFactoryPattern/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SimpleFactoryPattern/ProductA.java" afterPath="$PROJECT_DIR$/src/createpattern/SimpleFactoryPattern/ProductA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SimpleFactoryPattern/ProductB.java" afterPath="$PROJECT_DIR$/src/createpattern/SimpleFactoryPattern/ProductB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SimpleFactoryPattern/ProductC.java" afterPath="$PROJECT_DIR$/src/createpattern/SimpleFactoryPattern/ProductC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/open/XmlUtil.java" afterPath="$PROJECT_DIR$/src/createpattern/open/XmlUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/openclosemodel/AbstractChart.java" afterPath="$PROJECT_DIR$/src/createpattern/openclosemodel/AbstractChart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/openclosemodel/BarChart.java" afterPath="$PROJECT_DIR$/src/createpattern/openclosemodel/BarChart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/openclosemodel/ChartDisplay.java" afterPath="$PROJECT_DIR$/src/createpattern/openclosemodel/ChartDisplay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/openclosemodel/HomeMain.java" afterPath="$PROJECT_DIR$/src/createpattern/openclosemodel/HomeMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/openclosemodel/LineChart.java" afterPath="$PROJECT_DIR$/src/createpattern/openclosemodel/LineChart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/openclosemodel/PieChart.java" afterPath="$PROJECT_DIR$/src/createpattern/openclosemodel/PieChart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sington/Sington.java" afterPath="$PROJECT_DIR$/src/createpattern/sington/Sington.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="26925b57-cef1-43de-afb9-181e33c22ca0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,15 +24,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/createpattern/readme">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="20">
-                <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Actor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/Actor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/ActorBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeroBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/HeroBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AngelBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/AngelBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorContrller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/ActorContrller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/HomeMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,13 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ISPModel/ReportHandler.java" />
-        <option value="$PROJECT_DIR$/src/ISPModel/DataReport.java" />
-        <option value="$PROJECT_DIR$/src/ISPModel/HomeMain.java" />
-        <option value="$PROJECT_DIR$/src/CRPModel/DBUtil.java" />
-        <option value="$PROJECT_DIR$/src/CRPModel/OracleUtil.java" />
-        <option value="$PROJECT_DIR$/src/CRPModel/CustomDao.java" />
-        <option value="$PROJECT_DIR$/src/CRPModel/HomeMain.java" />
         <option value="$PROJECT_DIR$/src/SimpleFactoryPattern/AbstractProduct.java" />
         <option value="$PROJECT_DIR$/src/SimpleFactoryPattern/ProductA.java" />
         <option value="$PROJECT_DIR$/src/SimpleFactoryPattern/ProductB.java" />
@@ -175,6 +199,13 @@
         <option value="$PROJECT_DIR$/src/PrototypePattern/Protortype2.java" />
         <option value="$PROJECT_DIR$/src/PrototypePattern/HomeMain.java" />
         <option value="$PROJECT_DIR$/src/createpattern/readme" />
+        <option value="$PROJECT_DIR$/src/createpattern/sington/Sington.java" />
+        <option value="$PROJECT_DIR$/src/createpattern/BuildPattern/HeroBuilder.java" />
+        <option value="$PROJECT_DIR$/src/createpattern/BuildPattern/AngelBuilder.java" />
+        <option value="$PROJECT_DIR$/src/createpattern/BuildPattern/ActorContrller.java" />
+        <option value="$PROJECT_DIR$/src/createpattern/BuildPattern/Actor.java" />
+        <option value="$PROJECT_DIR$/src/createpattern/BuildPattern/ActorBuilder.java" />
+        <option value="$PROJECT_DIR$/src/createpattern/BuildPattern/HomeMain.java" />
       </list>
     </option>
   </component>
@@ -184,7 +215,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1924" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -248,6 +279,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sington" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sington" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="createpattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BuildPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -283,7 +336,7 @@
       <recent name="C:\Users\Heyha\IdeaProjects\Sington\src\AbstractFactoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeMain (2)">
+  <component name="RunManager" selected="Application.HomeMain (3)">
     <configuration default="false" name="HomeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -332,6 +385,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="createpattern.AbstractFactoryPattern.HomeMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Sington" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HomeMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="createpattern.BuildPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="createpattern.BuildPattern.HomeMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -548,17 +621,19 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.HomeMain" />
       <item index="1" class="java.lang.String" itemvalue="Application.HomeMain (1)" />
       <item index="2" class="java.lang.String" itemvalue="Application.HomeMain (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HomeMain (3)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.HomeMain (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HomeMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HomeMain (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HomeMain" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.HomeMain (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HomeMain (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HomeMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HomeMain (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HomeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -585,24 +660,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3373102" sideWeight="0.5074627" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.318872" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.318872" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3373102" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.49253732" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -613,7 +689,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -651,25 +726,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/createpattern/SimpleFactoryPattern/ProductC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleFactoryPattern/XML.xsl" />
-    <entry file="file://$PROJECT_DIR$/src/SimpleFactoryPattern/property.xml" />
-    <entry file="file://$PROJECT_DIR$/src/SimpleFactoryPattern/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/qwe.xsl" />
-    <entry file="file://$PROJECT_DIR$/src/SimpleFactoryPattern/config2" />
-    <entry file="file://$PROJECT_DIR$/src/createpattern/SimpleFactoryPattern/ProductA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configall" />
     <entry file="file://$PROJECT_DIR$/src/SimpleFactoryPattern/config" />
     <entry file="file://$PROJECT_DIR$/src/SimpleFactoryPattern/config.xml" />
@@ -820,6 +876,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="81" column="38" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/factory/Factory1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/createpattern/ISPModel/HomeMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -867,6 +917,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="false" />
+            <element signature="e#5784#5785#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -916,6 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,13 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/HomeMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -941,6 +989,126 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/sington/Sington.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/HomeMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/AbstractFactoryPattern/factory/Factory1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/AngelBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/HeroBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/ActorBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/HomeMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createpattern/BuildPattern/ActorContrller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
