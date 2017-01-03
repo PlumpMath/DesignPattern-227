@@ -1,0 +1,11 @@
+package bridgepattern;
+
+/**
+ * Created by Heyha on 2017/1/3.
+ */
+public class LinuxImageImpl implements ImageImpl {
+    @Override
+    public void doPaint(Matrix m) {
+        System.out.print("在Linux系统中显示图像");
+    }
+}

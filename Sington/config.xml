@@ -4,4 +4,6 @@
     <className>DatabaseLoggerFactory</className>
     <factoryType>Factory2</factoryType>
     <adapterType>OperationAdapter</adapterType>
+    <imageType>PngImage</imageType>
+    <sysType>UnixImageImpl</sysType>
 </config>
