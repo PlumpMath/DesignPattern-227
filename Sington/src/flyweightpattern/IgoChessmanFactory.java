@@ -17,6 +17,9 @@ public class IgoChessmanFactory {
         hashtable.put("w",white);
     }
 
+
+
+
     public static IgoChessmanFactory getInstance(){
         if (INSTANCE == null){
             synchronized (IgoChessmanFactory.class){
