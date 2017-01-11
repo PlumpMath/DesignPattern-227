@@ -6,4 +6,5 @@
     <adapterType>OperationAdapter</adapterType>
     <imageType>PngImage</imageType>
     <sysType>UnixImageImpl</sysType>
+    <mainBoardType>GigaMainBoard</mainBoardType>
 </config>

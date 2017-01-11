@@ -7,8 +7,8 @@ package actionpattern.commandpattern;
 public class HelpCommand implements Command {
     private HelpHandler helpHandler;
 
-    public HelpCommand(HelpHandler helpHandler) {
-        this.helpHandler = helpHandler;
+    public HelpCommand() {
+        this.helpHandler = new HelpHandler();
     }
 
     @Override

@@ -7,8 +7,8 @@ package actionpattern.commandpattern;
 public class WindowCommand implements Command {
     private WindowHandler windowHandler;
 
-    public WindowCommand(WindowHandler windowHandler) {
-        this.windowHandler = windowHandler;
+    public WindowCommand() {
+        this.windowHandler = new WindowHandler();
     }
 
     @Override

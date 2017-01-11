@@ -14,20 +14,22 @@ package actionpattern.commandpattern;
  */
 public class HomeMain {
     public static void main(String[] args) {
+        FBSettingWindow fbSettingWindow = new FBSettingWindow("功能键设置");
         //具体业务类(请求处理者)
         WindowHandler winhandler = new WindowHandler();
         HelpHandler helpHandler = new HelpHandler();
         //具体命令对象(命令)
         Command helpCom,winCom;
-        helpCom = new HelpCommand(helpHandler);
-        winCom = new WindowCommand(winhandler);
+        helpCom = new HelpCommand();
+        winCom = new WindowCommand();
         //调用者
         FunctionButton button1,button2;
         button1 = new FunctionButton("功能键1");
-        button1.setCommand(helpCom);
         button2 = new FunctionButton("功能键2");
+        //调用者注入命令对象
+        button1.setCommand(helpCom);
         button2.setCommand(winCom);
-        FBSettingWindow fbSettingWindow = new FBSettingWindow("功能键设置");
+
         fbSettingWindow.addFunctionButton(button1);
         fbSettingWindow.addFunctionButton(button2);
         fbSettingWindow.display();
