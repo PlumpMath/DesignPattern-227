@@ -21,7 +21,7 @@ public class HomeMain {
         wang.setSuccessor(li);
         li.setSuccessor(zhao);
 
-        PurchaseRequest request = new PurchaseRequest(640189,123,"买剑");
+        PurchaseRequest request = new PurchaseRequest(64018,123,"买剑");
         zhang.processRequest(request);
 
     }
